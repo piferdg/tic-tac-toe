@@ -21,3 +21,4 @@ To accomplish this, you will have to:
 
 * Deploy your app!
 * Paste link to deployed app here:
+https://pixel-art-project.firebaseapp.com/
