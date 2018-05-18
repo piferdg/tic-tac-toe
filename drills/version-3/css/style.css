@@ -1,0 +1,34 @@
+#grid {
+    width:465px;
+}
+
+.color-palette{ 
+    display: flex;
+}
+
+.cell {
+    width: 1em;
+    height: 1em;
+    display: inline-block;
+    border: solid 1px gray;
+    margin-top: -4px;
+}
+
+.brush {
+    height: 2em;
+    width: 2em;
+    display: flex; 
+    border-radius: 100%; 
+    border: 1px solid black;   
+}
+
+.eraserTool {
+    height: 2em;
+    width: 2em;
+    border-radius: 100%;
+    border: 1px solid black;
+}
+
+
+
+
