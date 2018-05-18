@@ -1,4 +1,4 @@
-const grid = document.querySelector('#grid')
+const canvas = document.querySelector('#canvas')
 let currnetColor
 
 for (let i = 0; i < 800; i++) {
@@ -9,7 +9,7 @@ for (let i = 0; i < 800; i++) {
         event.target.style.backgroundColor = currentColor
 })
 
-grid.appendChild(cell) 
+canvas.appendChild(cell) 
 }
 
 const colorPalette = document.querySelector('.color-palette')
