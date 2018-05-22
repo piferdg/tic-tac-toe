@@ -1,5 +1,5 @@
 const canvas = document.querySelector('#canvas')
-let currnetColor
+let currentColor
 
 for (let i = 0; i < 800; i++) {
     const cell = document.createElement('div')
